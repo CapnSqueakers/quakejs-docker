@@ -30,4 +30,5 @@ ADD entrypoint.sh /entrypoint.sh
 # Was having issues with Linux and Windows compatibility with chmod -x, but this seems to work in both
 RUN chmod 777 ./entrypoint.sh
 
+# make sure crlf is correct (lf)
 ENTRYPOINT ["/entrypoint.sh"]

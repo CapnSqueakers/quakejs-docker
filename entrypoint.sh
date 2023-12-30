@@ -11,4 +11,4 @@ sed -i "s/':80'/':${HTTP_PORT}'/g" index.html
 cd /quakejs
 
 node build/ioq3ded.js +set fs_game baseq3 set dedicated 1 +exec server.cfg
-
+#this should have the correct lf ending
